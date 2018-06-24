@@ -1,3 +1,11 @@
+from __future__ import unicode_literals, absolute_import
+import os
+import json
+import sys
+
+SOME_CONST =  123123
+
+
 def url(reg, view, name):
     pass
 
