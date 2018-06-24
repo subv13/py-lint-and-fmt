@@ -33,7 +33,7 @@ def lint_files(changed_files):
 
 
 if __name__ == "__main__":
-    # os.chdir(os.path.join(os.path.dirname(__file__), '..', '..'))
+    os.chdir(os.path.join(os.path.dirname(__file__), '..', '..'))
 
     changed_files = subprocess.check_output('git diff --cached --name-only --diff-filter=ACM'.split())
     changed_files = changed_files.decode(FS_ENCODING)
