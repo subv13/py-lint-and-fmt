@@ -8,9 +8,6 @@ import os
 import subprocess
 import sys
 
-# project
-from yapf_test import SomeClass
-
 FS_ENCODING = sys.getfilesystemencoding()
 
 

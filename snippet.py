@@ -7,6 +7,7 @@ SOME_CONST =  123123
 
 
 def url(reg, view, name):
+    json.dumps({'kek': 'lol'})
     pass
 
 class SomeViewWithLoooooooooooongName(object):
